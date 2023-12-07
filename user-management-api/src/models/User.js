@@ -5,6 +5,16 @@ const { success, error } = require('../helpers/ResponseFormatter');
 
 const userSchema = mongoose.Schema(
   {
+    googleId: {
+      type: String,
+      required: false,
+      trim: true,
+    },
+    email: {
+      type: String,
+      required: false,
+      trim: true,
+    },
     username: {
       type: String,
       required: false,
