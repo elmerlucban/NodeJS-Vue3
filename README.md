@@ -2,23 +2,23 @@
 Node.js CRUD REST API
 This project is a simple Node.js REST API with CRUD operations using Express and MongoDB.
 
-Getting Started
+#Getting Started
 To run this project, follow the steps below:
 
-Prerequisites
+#Prerequisites
 Make sure you have Node.js installed on your machine.
 https://nodejs.org/en
 
-Installation
+#Installation
 1. Install the required packages using npm:
    `npm install`
 
-Running the Project
+#Running the Project
 2. Run the project using the following command:
    `npm start`
 This will start the server, and it will be accessible at http://localhost:2000 by default.
 
-API Endpoints
+#API Endpoints
 GET /api/users: Retrieve all users.
 GET /api/users/:userId: Retrive an user by ID.
 POST /api/users: Create a new user.
@@ -28,11 +28,11 @@ Make sure to replace 'your-database-name' with the actual name of your MongoDB d
 
 # FRONTEND folder user-management-app
 
-Installation
+#Installation
 1. Install the required packages using npm:
    `npm install`
 
-Running the Project
+#Running the Project
 2. Run the project using the following command:
    `npm run dev`
 This will start, and it will be accessible at http://localhost:5173/ by default.
